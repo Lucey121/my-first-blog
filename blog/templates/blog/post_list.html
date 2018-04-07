@@ -10,13 +10,14 @@
       <p> najdeš tu zajímavá místa na mapě </p>
     </div>
 
-    <div>
-      <h2><a href="https://www.openstreetmap.org"> Open Street Maps </a><h2>
-    </div>
+    {% for post in posts %}
+      <div>
+        <h2><a href=''>{{ post.title }}</a></h1>
+        <p>{{ post.text|linebreaksbr}}</p>
+        <p>published: {{ post.published_date }}</p>
+      </div>
+    {% endfor %}
 
-    <div>
-      <p> zkouska, jestli fungují odkazy</p>
-    </div>
   </body>
 
 </html>
