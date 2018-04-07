@@ -25,7 +25,7 @@ SECRET_KEY = '3gthsn(ryt^6+76)3o^g9(n)c5ud8wpistiw&qhi+6*oal@pgh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["mapandtravel.pythonanywhere.com"]
+ALLOWED_HOSTS = ['mapandtravel.pythonanywhere.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
